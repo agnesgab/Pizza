@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <title>Make Pizza</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+        <header>
+            <h1>PIZZA BUILDER</h1>
+        </header>
+
+        <div class="menu-container">
+             
+                    <form class="base">
+                        <fieldset>
+                            <h3>Base</h3>
+                            <ul>
+                                <li>
+                                    <input type="radio" id="radio-base1" class="radiobtn" name="base" value="wheat" data-image="pics/base_wheat.png" checked>
+                                    <label for="radio-base1">Wheat</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="radio-base2" class="radiobtn" name="base" value="whole-wheat" data-image="pics/base_whole_wheat.png">
+                                    <label for="radio-base2">Whole wheat</label>
+                                </li> 
+                            </ul>
+                        </fieldset>
+                    </form>
+                
+                
+                    <form class="sauce">        
+                        <fieldset>
+                            <h3>Sauce</h3>
+                            <ul>
+                                <li>
+                                    <input type="radio" id="radio-sauce1" class="radiobtn" name="sauce" value="tomato" data-image="pics/sauce_tomato.png" checked>
+                                    <label for="radio-sauce1">Tomato</label>
+                                </li>
+                                <li>
+                                    <input type="radio" id="radio-sauce2" class="radiobtn" name="sauce" value="spicy-tomato" data-image="pics/sauce_spicy.png">
+                                    <label for="radio-sauce2">Spicy tomato</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+                
+                
+                
+                    <form class="cheese">
+
+                        <fieldset>
+                            <h3>Cheese</h3>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="check-cheese1" name="cheese" value="cheddar" data-image="pics/cheese_cheddar.png">
+                                    <label for="check-cheese1">Cheddar</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check-cheese2" name="cheese" value="mozzarella" data-image="pics/cheese_mozzarella.png">
+                                    <label for="check-cheese2">Mozzarella</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check-cheese3" name="cheese" value="feta" data-image="pics/cheese_feta.png">
+                                    <label for="check-cheese3">Feta</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check-cheese4" name="cheese" value="parmesan" data-image="pics/cheese_parmesan.png">
+                                    <label for="check-cheese4">Parmesan</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+                    
+
+                    <form class="meat">
+                        <fieldset>
+                            <h3>Meat</h3>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="check-meat1" name="meat" value="salami" data-image="pics/meat_salami.png">
+                                    <label for="check-meat1">Salami</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check-meat2" name="meat" value="bacon" data-image="pics/meat_bacon.png">
+                                    <label for="check-meat2">Bacon</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check-meat3" name="meat" value="chicken" data-image="pics/meat_chicken.png">
+                                    <label for="check-meat3">Chicken</label>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+                
+
+
+                
+                    <form class="vegetables">
+                        <fieldset>
+                            <h3>Vegetables</h3>
+                            <ul>
+                                <li>
+                                    <input type="checkbox" id="check-veg1" name="veg" value="tomatoes" data-image="pics/veg_tomato.png">
+                                    <label for="check-veg1">Tomatoes</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check-veg2" name="veg" value="mushrooms" data-image="pics/veg_mushrooms.png">
+                                    <label for="check-veg2">Mushrooms</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check-veg3" name="veg" value="paprika" data-image="pics/veg_paprika.png">
+                                    <label for="check-veg3">Paprika</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check-veg4" name="veg" value="onions" data-image="pics/veg_onions.png">
+                                    <label for="check-veg4">Onions</label>
+                                </li>
+                                <li>
+                                    <input type="checkbox" id="check-veg5" name="veg" value="pineapple" data-image="pics/veg_pineapple.png">
+                                    <label for="check-veg5">Pineapple</label>
+                                </li>
+                                
+                            </ul>
+                        </fieldset>
+                    </form>
+
+                    <form class="herbs">
+                        <fieldset>
+                            <h3>Herbs</h3>
+                            <ul>
+                            <li>
+                                <input type="checkbox" id="check-herb1" name="herb" value="ruccola" data-image="pics/herb_rukola.png">
+                                <label for="check-herb1">Ruccola</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="check-herb2" name="herb" value="spinach" data-image="pics/herb_spinach.png">
+                                <label for="check-herb1">Spinach</label>
+                            </li>
+                            <li>
+                                <input type="checkbox" id="check-herb3" name="herb" value="dill" data-image="pics/herb_dill.png">
+                                <label for="check-herb3">Dill</label>
+                            </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+        
+
+            
+
+        
+
+            <div id="img-container"></div>
+
+            
+        
+
+        <script src="script.js">
+
+        </script>
+    </body>
+</html>

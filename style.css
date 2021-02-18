@@ -1,0 +1,116 @@
+li {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  font-family: "Signika", sans-serif;
+  font-variant: normal;
+  font-size: initial;
+}
+
+header {
+  text-align: left;
+  margin: 5px;
+}
+
+h1 {
+  color: black;
+  font-size: 36px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-bottom: 0px;
+  margin-bottom: 0;
+  font-variant: normal;
+}
+
+.menu-container {
+  float: left;
+  width: 30vw;
+  display: grid;
+  grid-template-columns: 200px 200px;
+  grid-template-rows: repeat(4 1fr);
+  margin: 0;
+}
+
+h3 {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.base {
+  grid-row: 2/3;
+  grid-column: 1/2;
+  background: rgba(255, 166, 0, 0.8);
+}
+
+.base:hover {
+  background: rgba(255, 166, 0, 1);
+}
+
+.sauce {
+  grid-row: 2/3;
+  grid-column: 2/3;
+  background: rgba(250, 122, 2, 0.8);
+}
+
+.sauce:hover {
+  background: rgba(250, 122, 2, 1);
+}
+
+.cheese {
+  grid-column: 1/2;
+  grid-row: 3/4;
+  background: rgba(255, 217, 0, 0.8);
+}
+
+.cheese:hover {
+  background: rgb(255, 217, 0, 1);
+}
+
+.meat {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  background: rgb(255, 72, 0, 0.8);
+}
+
+.meat:hover {
+  background: rgb(255, 72, 0, 1);
+}
+
+.vegetables {
+  grid-column: 1/2;
+  grid-row: 4/5;
+  background: rgba(200, 255, 0, 0.8);
+}
+
+.vegetables:hover {
+  background: rgba(200, 255, 0, 1);
+}
+
+.herbs {
+  grid-column: 2/3;
+  grid-row: 4/5;
+  background: rgba(120, 224, 0, 0.8);
+}
+
+.herbs:hover {
+  background: rgba(120, 224, 0, 1);
+}
+
+img {
+  position: absolute;
+  top: 0vh;
+  right: 20vw;
+  width: 30%;
+}
+
+#img-container {
+  display: inline-block;
+}
+
+fieldset {
+  display: block;
+  margin: 0;
+  padding: 0;
+  border: none;
+  size: inherit;
+}
